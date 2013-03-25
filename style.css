@@ -1,0 +1,96 @@
+/*
+Theme Name:     WPRefresh Child - Child Theme
+Theme URI:      http://refreshwebmarketing.com/
+Description:    Child theme for the WPRefresh theme 
+Author:         Refresh Web Marketing
+Author URI:     http://refreshwebmarketing.com/
+Template:       WPRefresh
+Version:        1.0.0
+*/
+
+/* Import WPImpact CSS */
+@import url("../WPRefresh/style.css");
+/* ----------------------------------------------------------------------------
+   Structure
+---------------------------------------------------------------------------- */
+
+/* Container */
+
+/* Toolbar */
+
+/* Header */
+
+/* Main Focus */
+
+/* Nav */
+
+/* Footer */
+
+/* ----------------------------------------------------------------------------
+   Page Specific
+---------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------
+   Typography
+---------------------------------------------------------------------------- */
+/* Links */
+a { outline: none; transition:.5s color ease-in-out;
+}
+a:hover { text-decoration:none; }
+
+
+/* ----------------------------------------------------------------------------
+   Responsive
+---------------------------------------------------------------------------- */
+
+/*  Large Desktop: 1200px + 
+    Inherits styles from: Default Layout.
+---------------------------------------------------------------------------- */
+@media  only screen and (min-width: 1200px) {
+}
+	
+/*	Default Layout: 992px.
+	Inherits styles from: Default Layout. 
+---------------------------------------------------------------------------- */
+@media  only screen and (min-width: 992px) {
+}
+	
+/*  Default Layout: 768px - 961px.
+	Tablet: Landscape and Portrait
+    Inherits styles from: Default Layout.
+---------------------------------------------------------------------------- */
+@media  only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
+@media  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+	
+/*	Wide Mobile Layout: 767px - 480px.
+	Mobile Landscape Size to Tablet Portrait
+	Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------------------------- */
+@media  only screen and (min-width: 480px) and (max-width: 767px) {
+}
+	
+/*  Mobile Portrait Size: 479px or lower
+    to Mobile Landscape Size (devices and browsers).
+---------------------------------------------------------------------------- */
+@media  only screen and (max-width: 479px) {
+}
+	
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+---------------------------------------------------------------------------- */
+
+@media  only screen and (-webkit-min-device-pixel-ratio: 2),  only screen and (min-device-pixel-ratio: 2) {
+}
+	
+/* Print
+---------------------------------------------------------------------------- */
+@media print {
+}
+
+/* =IE
+---------------------------------------------------------------------------- */
