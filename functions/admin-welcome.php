@@ -13,7 +13,7 @@ echo ', Welcome to your New Website!</h3>
 echo $current_user->user_firstname;
 echo ', follow the simple instructions below to update the dynamic features and content of your new ';
 echo get_bloginfo('name');
-echo ' website. If you need help getting started, use our <a href="http://refreshwebmarketing.com/website-support/?company='.get_bloginfo('name').'&website='.get_bloginfo('url').'&email='.$current_user->user_email.'&firstname='.$current_user->user_firstname.'&lastname='.$current_user->user_lastname.'" target="_blank">support form</a> or contact us by phone at 319.535.7096.
+echo ' website. If you need help getting started, use our <a href="http://refreshwebmarketing.com/website-support/?company='.get_bloginfo('name').'&website='.get_bloginfo('url').'&email='.$current_user->user_email.'&firstname='.$current_user->user_firstname.'&lastname='.$current_user->user_lastname.'" target="_blank">support form</a> or contact us by phone at 319.535.0796.
 </p>
 <div class="clearfix"></div>
 <div class="welcome-panel-column-container">
