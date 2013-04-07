@@ -5,7 +5,7 @@ Description:    Child theme for the WPRefresh theme
 Author:         Refresh Web Marketing
 Author URI:     http://refreshwebmarketing.com/
 Template:       WPRefresh
-Version:        1.0.1
+Version:        1.0.2
 */
 
 /* Import WPImpact CSS */
@@ -43,17 +43,19 @@ a:hover { text-decoration:none; }
    Responsive
 ---------------------------------------------------------------------------- */
 
-/*  Large Desktop: 1200px + 
-    Inherits styles from: Default Layout.
+/*  Mobile Portrait Size: 479px or lower
+    to Mobile Landscape Size (devices and browsers).
 ---------------------------------------------------------------------------- */
-@media  only screen and (min-width: 1200px) {
+@media  only screen and (max-width: 479px) {
+}
+
+/*	Wide Mobile Layout: 767px - 480px.
+	Mobile Landscape Size to Tablet Portrait
+	Inherits styles from: Default Layout, Mobile Layout.
+---------------------------------------------------------------------------- */
+@media  only screen and (min-width: 480px) and (max-width: 767px) {
 }
 	
-/*	Default Layout: 992px.
-	Inherits styles from: Default Layout. 
----------------------------------------------------------------------------- */
-@media  only screen and (min-width: 992px) {
-}
 	
 /*  Default Layout: 768px - 961px.
 	Tablet: Landscape and Portrait
@@ -66,17 +68,16 @@ a:hover { text-decoration:none; }
 @media  only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 }
 	
-/*	Wide Mobile Layout: 767px - 480px.
-	Mobile Landscape Size to Tablet Portrait
-	Inherits styles from: Default Layout, Mobile Layout.
+/*	Default Layout: 992px.
+	Inherits styles from: Default Layout. 
 ---------------------------------------------------------------------------- */
-@media  only screen and (min-width: 480px) and (max-width: 767px) {
+@media  only screen and (min-width: 992px) {
 }
 	
-/*  Mobile Portrait Size: 479px or lower
-    to Mobile Landscape Size (devices and browsers).
+/*  Large Desktop: 1200px + 
+    Inherits styles from: Default Layout.
 ---------------------------------------------------------------------------- */
-@media  only screen and (max-width: 479px) {
+@media  only screen and (min-width: 1200px) {
 }
 	
 /*	Retina media query.
